@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>talk_telephony</id>
+    <name>Talk Telephony</name>
+    <summary>SIP/PBX account management for Nextcloud Talk telephony gateways</summary>
+    <description>Manage per-user SIP extensions and credentials and expose them securely to the Talk Telephony Gateway.</description>
+    <version>0.2.0</version>
+    <licence>agpl</licence>
+    <author>2M Production Electrique</author>
+    <namespace>TalkTelephony</namespace>
+    <category>integration</category>
+    <category>tools</category>
+    <dependencies>
+        <nextcloud min-version="33" max-version="33" />
+        <php min-version="8.1" />
+    </dependencies>
+    <settings>
+        <personal>OCA\TalkTelephony\Settings\Personal</personal>
+        <admin>OCA\TalkTelephony\Settings\Admin</admin>
+    </settings>
+</info>

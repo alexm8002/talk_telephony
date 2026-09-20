@@ -1,0 +1,1 @@
+.tt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;max-width:900px}.tt-grid label{display:flex;flex-direction:column;gap:6px}.tt-status[data-ok="0"]{color:var(--color-error)}.tt-status[data-ok="1"]{color:var(--color-success)}.tt-secret{font-family:monospace;word-break:break-all;max-width:900px}.section table.grid{margin-top:10px}
