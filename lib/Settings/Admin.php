@@ -1,4 +1,9 @@
 <?php
+/**
+ * SPDX-FileCopyrightText: 2026 2M Production Electrique
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+
 namespace OCA\TalkTelephony\Settings;
 
 use OCP\AppFramework\Http\TemplateResponse;
