@@ -5,14 +5,14 @@
     <name>Talk Telephony</name>
     <summary>SIP/PBX account management for Nextcloud Talk telephony gateways</summary>
     <description>Manage per-user SIP extensions and credentials and expose them securely to the Talk Telephony Gateway.</description>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <licence>agpl</licence>
     <author>2M Production Electrique</author>
     <namespace>TalkTelephony</namespace>
     <category>integration</category>
     <category>tools</category>
     <dependencies>
-        <nextcloud min-version="33" max-version="33" />
+        <nextcloud min-version="33" max-version="35" />
         <php min-version="8.1" />
     </dependencies>
     <settings>
