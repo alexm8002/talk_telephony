@@ -18,11 +18,15 @@ class TalkPhoneNumberSyncService {
     ) {}
 
     public function normalize(string $extension): string {
+        $extension = trim($extension);
+
         try {
-            return $this->validation->validateNumber(trim($extension));
+            $this->validation->validateNumber($extension);
         } catch (\InvalidArgumentException $e) {
             throw new \InvalidArgumentException('Extension invalide', 0, $e);
         }
+
+        return $extension;
     }
 
     public function assertAvailable(string $extension, string $userId): void {
